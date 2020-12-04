@@ -12,7 +12,7 @@ namespace AdventOfCode
 
         public static void Solve(int id)
         {
-            ReadFileToArraylist("assets/input1-1.txt");
+            ReadFileToArraylist("assets/input1.txt");
 
             if (id == 1)
             {
@@ -55,8 +55,8 @@ namespace AdventOfCode
         public static void ReadFileToArraylist(String fileName)
         {
             TextReader tr = File.OpenText(fileName);
-            
             String line = tr.ReadLine();
+
             while (line != null)
             {
                 int number = int.Parse(line);

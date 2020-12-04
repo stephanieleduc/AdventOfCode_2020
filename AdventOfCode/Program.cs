@@ -12,15 +12,8 @@ namespace AdventOfCode
          static void Main(string[] args)
          {
 
-
-            Day1.Solve(2);
-            
-
-
+            Day2.Solve(2);
+   
          }
-
-       
-
-
     }
 }
